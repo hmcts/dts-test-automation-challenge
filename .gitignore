@@ -1,0 +1,16 @@
+# IDE
+/.idea/
+
+# Build folder
+/target/
+
+# Logs
+/logs/
+
+# Test reports
+/Reports/
+*.html
+*.png
+
+# Temporary files
+*.log

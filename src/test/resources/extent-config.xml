@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <documentTitle>Automation Test Execution Report</documentTitle>
+        <reportName>Automation Exercise - Execution Summary</reportName>
+
+        <theme>STANDARD</theme>
+        <encoding>UTF-8</encoding>
+        <protocol>HTTPS</protocol>
+        <timelineEnabled>true</timelineEnabled>
+        <enableCategoryView>true</enableCategoryView>
+        <enableAuthorView>true</enableAuthorView>
+        <enableDeviceView>true</enableDeviceView>
+        <enableExceptionView>true</enableExceptionView>
+        <viewOrder>
+            <dashboardView/>
+            <testView/>
+            <categoryView/>
+            <authorView/>
+            <exceptionView/>
+            <deviceView/>
+            <logView/>
+        </viewOrder>
+        <styles>
+            .navbar { background:#111 !important; }
+            .report-name { font-size:22px !important; font-weight:bold !important; }
+            .brand-logo { font-size:18px !important; }
+            .card-panel {
+            border-radius:12px !important;
+            padding:20px !important;
+            box-shadow:0 4px 12px rgba(0,0,0,0.25) !important;
+            }
+            .test-name { font-size:18px !important; font-weight:bold !important; }
+            .node-name { font-size:16px !important; font-weight:600 !important; }
+            .status.pass { background:#1e5128 !important; }
+            .status.fail { background:#c82333 !important; }
+            .status.skip { background:#876c14 !important; }
+        </styles>
+        <scripts>
+            document.querySelector(".report-name").style.letterSpacing = "1px";
+        </scripts>
+    </configuration>
+</extentreports>
