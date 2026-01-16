@@ -1,0 +1,21 @@
+name: Run Cypress Test
+
+on: [push]
+
+jobs:
+  cypress-runner:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Intialize NPM
+        uses: actions/checkout@v4
+
+      - name: Run Cypress
+        uses: cypress-io/github-action@v6
+
+      - name: Upload Test Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: reports/html/

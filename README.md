@@ -1,5 +1,7 @@
 # Test Automation Framework Activity - Technical Prerequisites and Submission Guidelines 
 
+> 📋 **For detailed information about this project, including what has been tested, benefits of the implementation, design choices, and potential improvements, please read the project assessment on [ASSESSMENT.md](ASSESSMENT.md) file.**
+
 Thank you for your interest in the Senior Software Developer in Test position here at HMCTS.  As part of our interview process. We appreciate your time and effort in completing this activity, which will help us assess your technical skills in test automation. 
 
 In this technical challenge, we would like you to showcase the following: 

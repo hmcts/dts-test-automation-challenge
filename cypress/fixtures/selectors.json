@@ -1,0 +1,8 @@
+{
+  "HomePageText": ".example",
+  "usernameField": "#username",
+  "passwordField": "#password",
+  "button": "button",
+  "link": "a[href]",
+  "alertMessage": "div[data-alert]"
+}
